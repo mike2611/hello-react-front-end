@@ -2,7 +2,7 @@
 
 # Hello React Front-End
 
-> Hello World RoR React, this is the Front-End for this project
+> Hello World project usign RoR and React, this is the Front-End for this project
 
 [RoR Project](https://github.com/mike2611/hello-rails-back-end)
 
