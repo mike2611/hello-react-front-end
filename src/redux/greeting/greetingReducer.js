@@ -5,7 +5,7 @@ const initialState = [];
 
 export const fetchGreeting = () => async (dispatch) => {
   try {
-    const response = await axios.get('/greetings');
+    const response = await axios.get('http://localhost:3000/greetings');
     const greeting = Object.values(response.data);
     dispatch({
       type: FETCH_GREETINGS,

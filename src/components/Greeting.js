@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchGreeting } from '../redux/greeting/greetingReducer';
 
 const Greeting = () => {
-  const greeting = useSelector((state) => state.greetingsReducer);
+  const greeting = useSelector((state) => state.greetingReducer);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const Greeting = () => {
   return (
     <h1>
       Greeting:
-      {greeting[3]}
+      {greeting[1]}
     </h1>
   );
 };
